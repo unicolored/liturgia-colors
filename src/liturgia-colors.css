@@ -10,7 +10,11 @@
   --albus-accent: #d4af37;
   --albus-accent-hover: #b8962e;
   --albus-border: #e5e5e5;
-  --albus-gradient: linear-gradient(to top, var(--albus-bg-secondary), var(--albus-bg)); /* Darker white to secondary */
+  --albus-gradient: linear-gradient(
+    to top,
+    var(--albus-bg-secondary),
+    var(--albus-bg)
+  ); /* Darker white to secondary */
 
   /* Ruber (Red) Palette */
   --ruber-bg: #a31212;
@@ -23,7 +27,11 @@
   --ruber-accent: #8b0000;
   --ruber-accent-hover: #a31212;
   --ruber-border: #5a3a3a;
-  --ruber-gradient: linear-gradient(to top, var(--ruber-bg-secondary), var(--ruber-bg)); /* Darker white to secondary */
+  --ruber-gradient: linear-gradient(
+    to top,
+    var(--ruber-bg-secondary),
+    var(--ruber-bg)
+  ); /* Darker white to secondary */
 
   /* Viridis (Green) Palette */
   --viridis-bg: #487351;
@@ -36,7 +44,11 @@
   --viridis-accent: #355e3b;
   --viridis-accent-hover: #487351;
   --viridis-border: #d1d8cc;
-  --viridis-gradient: linear-gradient(to top, var(--viridis-bg-secondary), var(--viridis-bg)); /* Darker green to secondary */
+  --viridis-gradient: linear-gradient(
+    to top,
+    var(--viridis-bg-secondary),
+    var(--viridis-bg)
+  ); /* Darker green to secondary */
 
   /* Violaceus (Violet) Palette */
   --violaceus-bg: #7d4a8f;
@@ -49,7 +61,11 @@
   --violaceus-accent: #6a387d;
   --violaceus-accent-hover: #7d4a8f;
   --violaceus-border: #5a465f;
-  --violaceus-gradient: linear-gradient(to top, var(--violaceus-bg-secondary), var(--violaceus-bg)); /* Darker violet to secondary */
+  --violaceus-gradient: linear-gradient(
+    to top,
+    var(--violaceus-bg-secondary),
+    var(--violaceus-bg)
+  ); /* Darker violet to secondary */
 
   /* Tenebrae (Black) Palette */
   --tenebrae-bg: #5e5e5e;
@@ -62,7 +78,11 @@
   --tenebrae-accent: #4a4a4a;
   --tenebrae-accent-hover: #5e5e5e;
   --tenebrae-border: #3d3d3d;
-  --tenebrae-gradient: linear-gradient(to top, var(--tenebrae-bg-secondary), var(--tenebrae-bg)); /* Darker black to secondary */
+  --tenebrae-gradient: linear-gradient(
+    to top,
+    var(--tenebrae-bg-secondary),
+    var(--tenebrae-bg)
+  ); /* Darker black to secondary */
 
   /* Roseus (Rose) Palette */
   --roseus-bg: #d491a1;
@@ -75,7 +95,11 @@
   --roseus-accent: #c87d8f;
   --roseus-accent-hover: #d491a1;
   --roseus-border: #e5d8db;
-  --roseus-gradient: linear-gradient(to top, var(--roseus-bg-secondary), var(--roseus-bg)); /* Darker rose to secondary */
+  --roseus-gradient: linear-gradient(
+    to top,
+    var(--roseus-bg-secondary),
+    var(--roseus-bg)
+  ); /* Darker rose to secondary */
 
   /* Design Tokens */
   --radius-default: 4px;
