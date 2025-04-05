@@ -1,6 +1,6 @@
 {
   "name": "liturgia-colors",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A css theme inspired by liturgical colors in the Roman Church.",
   "main": "dist/liturgia.css",
   "files": [
@@ -39,5 +39,6 @@
     "url": "git+https://github.com/unicolored/liturgia-css.git"
   },
   "license": "MIT",
-  "author": "Gilles Hoarau (https://github.com/unicolored)"
+  "author": "Gilles Hoarau (https://github.com/unicolored)",
+  "packageManager": "yarn@4.8.1"
 }
