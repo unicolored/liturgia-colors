@@ -46,7 +46,7 @@ Apply a mode class to your <body> or a container:
 * .ruber-mode: Red, martyrdom, passion
 * .viridis-mode: Green, hope, growth
 * .violaceus-mode: Violet, penance
-* .niger-mode: Black, mourning
+* .tenebrae-mode: Black, mourning
 * .roseus-mode: Rose, subtle joy
 
 Example:
