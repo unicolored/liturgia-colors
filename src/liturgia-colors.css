@@ -1,0 +1,149 @@
+:root {
+        /* Albus (White) Palette */
+        --albus-bg: #ffffff;
+        --albus-bg-secondary: #f7f7f7;
+        --albus-tertiary: #f0f0f0;
+        --albus-text: #1a1a1a;
+        --albus-text-secondary: #4a4a4a;
+        --albus-accent: #d4af37;
+        --albus-accent-hover: #b8962e;
+        --albus-border: #e5e5e5;
+
+        /* Ruber (Red) Palette */
+        --ruber-bg: #2a1a1a;
+        --ruber-bg-secondary: #3c2525;
+        --ruber-tertiary: #4f2f2f;
+        --ruber-text: #f5eded;
+        --ruber-text-secondary: #c9afaf;
+        --ruber-accent: #8b0000;
+        --ruber-accent-hover: #a31212;
+        --ruber-border: #5a3a3a;
+
+        /* Viridis (Green) Palette */
+        --viridis-bg: #f5f7f2;
+        --viridis-bg-secondary: #e8ece3;
+        --viridis-tertiary: #dde5d9;
+        --viridis-text: #1f2f1f;
+        --viridis-text-secondary: #5a6f5a;
+        --viridis-accent: #355e3b;
+        --viridis-accent-hover: #487351;
+        --viridis-border: #d1d8cc;
+
+        /* Violaceus (Violet) Palette */
+        --violaceus-bg: #2d1f34;
+        --violaceus-bg-secondary: #3e2a47;
+        --violaceus-tertiary: #4f3a5a;
+        --violaceus-text: #ede4f0;
+        --violaceus-text-secondary: #b8a6c1;
+        --violaceus-accent: #6a387d;
+        --violaceus-accent-hover: #7d4a8f;
+        --violaceus-border: #5a465f;
+
+        /* Niger (Black) Palette */
+        --niger-bg: #1a1a1a;
+        --niger-bg-secondary: #2b2b2b;
+        --niger-tertiary: #3a3a3a;
+        --niger-text: #e8e8e8;
+        --niger-text-secondary: #a6a6a6;
+        --niger-accent: #4a4a4a;
+        --niger-accent-hover: #5e5e5e;
+        --niger-border: #3d3d3d;
+
+        /* Roseus (Rose) Palette */
+        --roseus-bg: #fdf5f7;
+        --roseus-bg-secondary: #f9ecef;
+        --roseus-tertiary: #f2e0e5;
+        --roseus-text: #2f1f25;
+        --roseus-text-secondary: #6f5a60;
+        --roseus-accent: #c87d8f;
+        --roseus-accent-hover: #d491a1;
+        --roseus-border: #e5d8db;
+
+
+    /* Design Tokens */
+    --radius-default: 4px;
+    --size-sm: 24px;
+    --size-md: 48px;
+    --size-lg: 72px;
+    --opacity-low: 0.3;
+    --opacity-medium: 0.6;
+    --opacity-high: 0.9;
+    --rotate-default: 45deg;
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 1rem;
+    --font-size-md: 1.5rem;
+    --font-size-lg: 2rem;
+    --spacing-xs: 0.25rem;
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --line-width-default: 2px;
+
+    /* Default Theme (Albus) */
+    --color-primary: var(--albus-bg);
+    --color-secondary: var(--albus-bg-secondary);
+    --color-tertiary: var(--albus-tertiary);
+    --color-text-primary: var(--albus-text);
+    --color-text-secondary: var(--albus-text-secondary);
+    --color-accent: var(--albus-accent);
+    --color-accent-hover: var(--albus-accent-hover);
+    --color-border: var(--albus-border);
+    --font-family-heading: "Cinzel", serif;
+    --font-family-paragraph: "EB Garamond", serif;
+}
+
+/* Mode Overrides */
+.ruber-mode {
+    --color-primary: var(--ruber-bg);
+    --color-secondary: var(--ruber-bg-secondary);
+    --color-tertiary: var(--ruber-tertiary);
+    --color-text-primary: var(--ruber-text);
+    --color-text-secondary: var(--ruber-text-secondary);
+    --color-accent: var(--ruber-accent);
+    --color-accent-hover: var(--ruber-accent-hover);
+    --color-border: var(--ruber-border);
+}
+
+.viridis-mode {
+    --color-primary: var(--viridis-bg);
+    --color-secondary: var(--viridis-bg-secondary);
+    --color-tertiary: var(--viridis-tertiary);
+    --color-text-primary: var(--viridis-text);
+    --color-text-secondary: var(--viridis-text-secondary);
+    --color-accent: var(--viridis-accent);
+    --color-accent-hover: var(--viridis-accent-hover);
+    --color-border: var(--viridis-border);
+}
+
+.violaceus-mode {
+    --color-primary: var(--violaceus-bg);
+    --color-secondary: var(--violaceus-bg-secondary);
+    --color-tertiary: var(--violaceus-tertiary);
+    --color-text-primary: var(--violaceus-text);
+    --color-text-secondary: var(--violaceus-text-secondary);
+    --color-accent: var(--violaceus-accent);
+    --color-accent-hover: var(--violaceus-accent-hover);
+    --color-border: var(--violaceus-border);
+}
+
+.niger-mode {
+    --color-primary: var(--niger-bg);
+    --color-secondary: var(--niger-bg-secondary);
+    --color-tertiary: var(--niger-tertiary);
+    --color-text-primary: var(--niger-text);
+    --color-text-secondary: var(--niger-text-secondary);
+    --color-accent: var(--niger-accent);
+    --color-accent-hover: var(--niger-accent-hover);
+    --color-border: var(--niger-border);
+}
+
+.roseus-mode {
+    --color-primary: var(--roseus-bg);
+    --color-secondary: var(--roseus-bg-secondary);
+    --color-tertiary: var(--roseus-tertiary);
+    --color-text-primary: var(--roseus-text);
+    --color-text-secondary: var(--roseus-text-secondary);
+    --color-accent: var(--roseus-accent);
+    --color-accent-hover: var(--roseus-accent-hover);
+    --color-border: var(--roseus-border);
+}
