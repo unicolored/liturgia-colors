@@ -1,0 +1,43 @@
+{
+  "name": "liturgia-colors",
+  "version": "0.1.0",
+  "description": "A css theme inspired by liturgical colors in the Roman Church.",
+  "main": "dist/liturgia.css",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "scripts": {
+    "build": "npx postcss src/liturgia-colors.css -o dist/liturgia.css",
+    "build:tailwind": "npx postcss src/tailwind/main.css -o dist/liturgia.tailwind.css",
+    "format": "prettier --write src",
+    "check": "prettier --check src"
+  },
+  "keywords": [
+    "liturgy",
+    "catholic",
+    "css",
+    "theme",
+    "tailwind"
+  ],
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.3",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^7.0.6",
+    "postcss": "^8.5.3",
+    "postcss-cli": "^11.0.1",
+    "prettier": "^3.5.3",
+    "tailwindcss": "^4.1.3"
+  },
+  "homepage": "https://github.com/unicolored/liturgia-colors#readme",
+  "bugs": {
+    "url": "https://github.com/unicolored/liturgia-colors/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unicolored/liturgia-css.git"
+  },
+  "license": "MIT",
+  "author": "Gilles Hoarau (https://github.com/unicolored)"
+}
