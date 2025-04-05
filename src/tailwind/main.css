@@ -3,38 +3,38 @@
 @import './typography.css';
 
 @theme inline {
-    /* Colors */
-    --color-primary: var(--color-primary);
-    --color-secondary: var(--color-secondary);
-    --color-tertiary: var(--color-tertiary);
-    --color-text-primary: var(--color-text-primary);
-    --color-text-secondary: var(--color-text-secondary);
-    --color-accent: var(--color-accent);
-    --color-accent-hover: var(--color-accent-hover);
-    --color-border: var(--color-border);
+  /* Colors */
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+  --color-tertiary: var(--color-tertiary);
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-accent: var(--color-accent);
+  --color-accent-hover: var(--color-accent-hover);
+  --color-border: var(--color-border);
 
-    /* Fonts */
-    --font-family-heading: var(--font-family-heading);
-    --font-family-paragraph: var(--font-family-paragraph);
+  /* Fonts */
+  --font-family-heading: var(--font-family-heading);
+  --font-family-paragraph: var(--font-family-paragraph);
 
-    /* Design Tokens */
-    --radius-default: var(--radius-default);
-    --size-sm: var(--size-sm);
-    --size-md: var(--size-md);
-    --size-lg: var(--size-lg);
-    --opacity-low: var(--opacity-low);
-    --opacity-medium: var(--opacity-medium);
-    --opacity-high: var(--opacity-high);
-    --rotate-default: var(--rotate-default);
-    --font-size-xs: var(--font-size-xs);
-    --font-size-sm: var(--font-size-sm);
-    --font-size-md: var(--font-size-md);
-    --font-size-lg: var(--font-size-lg);
-    --spacing-xs: var(--spacing-xs);
-    --spacing-sm: var(--spacing-sm);
-    --spacing-md: var(--spacing-md);
-    --spacing-lg: var(--spacing-lg);
-    --line-width-default: var(--line-width-default);
+  /* Design Tokens */
+  --radius-default: var(--radius-default);
+  --size-sm: var(--size-sm);
+  --size-md: var(--size-md);
+  --size-lg: var(--size-lg);
+  --opacity-low: var(--opacity-low);
+  --opacity-medium: var(--opacity-medium);
+  --opacity-high: var(--opacity-high);
+  --rotate-default: var(--rotate-default);
+  --font-size-xs: var(--font-size-xs);
+  --font-size-sm: var(--font-size-sm);
+  --font-size-md: var(--font-size-md);
+  --font-size-lg: var(--font-size-lg);
+  --spacing-xs: var(--spacing-xs);
+  --spacing-sm: var(--spacing-sm);
+  --spacing-md: var(--spacing-md);
+  --spacing-lg: var(--spacing-lg);
+  --line-width-default: var(--line-width-default);
 }
 
 @tailwind utilities;
