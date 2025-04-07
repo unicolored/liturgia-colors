@@ -2,8 +2,9 @@
 
 set -e
 
-yarn docs:build
 
-npx postcss src/liturgia-colors.css -o site/liturgia.css
-npx postcss src/tailwind/main.css -o site/liturgia.tailwind.css
+npx postcss src/liturgia-colors.css -o docs/styles/liturgia.css
+npx postcss src/tailwind/main.css -o docs/styles/liturgia.tailwind.css
+
+yarn docs:build
 

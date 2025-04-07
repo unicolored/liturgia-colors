@@ -1,4 +1,4 @@
-site_name: Liturgia Documentation
+site_name: Liturgia Colors
 site_url: https://unicolored.github.io/liturgia-colors/
 repo_url: https://github.com/unicolored/liturgia-colors
 site_description: A css theme inspired by liturgical colors in the Roman Church
@@ -11,3 +11,8 @@ nav:
   - Home: index.md
   - Installation: installation.md
   - Usage: usage.md
+  - Themes: themes.md
+extra_css:
+  - styles/liturgia.css
+  - styles/liturgia.tailwind.css
+  - styles/themes.css
