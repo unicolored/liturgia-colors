@@ -11,7 +11,8 @@
     "build": "npx postcss src/liturgia-colors.css -o dist/liturgia.css",
     "build:tailwind": "npx postcss src/tailwind/main.css -o dist/liturgia.tailwind.css",
     "format": "prettier --write src",
-    "check": "prettier --check src"
+    "check": "prettier --check src",
+    "docs": "mkdocs serve"
   },
   "keywords": [
     "liturgy",
