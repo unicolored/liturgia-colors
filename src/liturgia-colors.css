@@ -1,104 +1,98 @@
 :root {
   /* Albus (White) Palette */
-  --albus-bg: #d4af37;
-  --albus-bg-secondary: #b8962e;
-  --albus-tertiary: #f0f0f0;
-  --albus-text: #1a1a1a;
-  --albus-text-secondary: #4a4a4a;
-  --albus-text-invert: #f7f7f7;
-  --albus-text-secondary-invert: #b0b0b0;
+  --albus-primary: #d4af37;
+  --albus-secondary: #b8962e;
+  --albus-tertiary: #e5e5e5;
   --albus-accent: #d4af37;
   --albus-accent-hover: #b8962e;
-  --albus-border: #e5e5e5;
+  --albus-text: #1a1a1a;
+  --albus-text-invert: #f7f7f7;
+  --albus-text-secondary: #4a4a4a;
+  --albus-text-secondary-invert: #b0b0b0;
   --albus-gradient: linear-gradient(
     to top,
-    var(--albus-bg-secondary),
-    var(--albus-bg)
+    var(--albus-secondary),
+    var(--albus-primary)
   ); /* Darker white to secondary */
 
   /* Ruber (Red) Palette */
-  --ruber-bg: #a31212;
-  --ruber-bg-secondary: #8b0000;
-  --ruber-tertiary: #4f2f2f;
-  --ruber-text: #2a1a1a;
-  --ruber-text-secondary: #5a3a3a;
-  --ruber-text-invert: #f5eded;
-  --ruber-text-secondary-invert: #c9afaf;
+  --ruber-primary: #a31212;
+  --ruber-secondary: #8b0000;
+  --ruber-tertiary: #5a3a3a;
   --ruber-accent: #8b0000;
   --ruber-accent-hover: #a31212;
-  --ruber-border: #5a3a3a;
+  --ruber-text: #2a1a1a;
+  --ruber-text-invert: #f5eded;
+  --ruber-text-secondary: #5a3a3a;
+  --ruber-text-secondary-invert: #c9afaf;
   --ruber-gradient: linear-gradient(
     to top,
-    var(--ruber-bg-secondary),
-    var(--ruber-bg)
+    var(--ruber-secondary),
+    var(--ruber-primary)
   ); /* Darker white to secondary */
 
   /* Viridis (Green) Palette */
-  --viridis-bg: #487351;
-  --viridis-bg-secondary: #355e3b;
-  --viridis-tertiary: #dde5d9;
-  --viridis-text: #1f2f1f;
-  --viridis-text-secondary: #5a6f5a;
-  --viridis-text-invert: #e8ece3;
-  --viridis-text-secondary-invert: #a0b0a0;
+  --viridis-primary: #487351;
+  --viridis-secondary: #355e3b;
+  --viridis-tertiary: #d1d8cc;
   --viridis-accent: #355e3b;
   --viridis-accent-hover: #487351;
-  --viridis-border: #d1d8cc;
+  --viridis-text: #1f2f1f;
+  --viridis-text-invert: #e8ece3;
+  --viridis-text-secondary: #5a6f5a;
+  --viridis-text-secondary-invert: #a0b0a0;
   --viridis-gradient: linear-gradient(
     to top,
-    var(--viridis-bg-secondary),
-    var(--viridis-bg)
+    var(--viridis-secondary),
+    var(--viridis-primary)
   ); /* Darker green to secondary */
 
   /* Violaceus (Violet) Palette */
-  --violaceus-bg: #7d4a8f;
-  --violaceus-bg-secondary: #6a387d;
-  --violaceus-tertiary: #4f3a5a;
-  --violaceus-text: #2d1f34;
-  --violaceus-text-secondary: #5a465f;
-  --violaceus-text-invert: #ede4f0;
-  --violaceus-text-secondary-invert: #b8a6c1;
+  --violaceus-primary: #7d4a8f;
+  --violaceus-secondary: #6a387d;
+  --violaceus-tertiary: #5a465f;
   --violaceus-accent: #6a387d;
   --violaceus-accent-hover: #7d4a8f;
-  --violaceus-border: #5a465f;
+  --violaceus-text: #2d1f34;
+  --violaceus-text-invert: #ede4f0;
+  --violaceus-text-secondary: #5a465f;
+  --violaceus-text-secondary-invert: #b8a6c1;
   --violaceus-gradient: linear-gradient(
     to top,
-    var(--violaceus-bg-secondary),
-    var(--violaceus-bg)
+    var(--violaceus-secondary),
+    var(--violaceus-primary)
   ); /* Darker violet to secondary */
 
   /* Tenebrae (Black) Palette */
-  --tenebrae-bg: #5e5e5e;
-  --tenebrae-bg-secondary: #4a4a4a;
-  --tenebrae-tertiary: #3a3a3a;
-  --tenebrae-text: #1a1a1a;
-  --tenebrae-text-secondary: #4a4a4a;
-  --tenebrae-text-invert: #e8e8e8;
-  --tenebrae-text-secondary-invert: #a6a6a6;
+  --tenebrae-primary: #5e5e5e;
+  --tenebrae-secondary: #4a4a4a;
+  --tenebrae-tertiary: #3d3d3d;
   --tenebrae-accent: #4a4a4a;
   --tenebrae-accent-hover: #5e5e5e;
-  --tenebrae-border: #3d3d3d;
+  --tenebrae-text: #1a1a1a;
+  --tenebrae-text-invert: #e8e8e8;
+  --tenebrae-text-secondary: #4a4a4a;
+  --tenebrae-text-secondary-invert: #a6a6a6;
   --tenebrae-gradient: linear-gradient(
     to top,
-    var(--tenebrae-bg-secondary),
-    var(--tenebrae-bg)
+    var(--tenebrae-secondary),
+    var(--tenebrae-primary)
   ); /* Darker black to secondary */
 
   /* Roseus (Rose) Palette */
-  --roseus-bg: #d491a1;
-  --roseus-bg-secondary: #c87d8f;
-  --roseus-tertiary: #f2e0e5;
-  --roseus-text: #2f1f25;
-  --roseus-text-secondary: #6f5a60;
-  --roseus-text-invert: #f9ecef;
-  --roseus-text-secondary-invert: #c9afaf;
+  --roseus-primary: #d491a1;
+  --roseus-secondary: #c87d8f;
+  --roseus-tertiary: #e5d8db;
   --roseus-accent: #c87d8f;
   --roseus-accent-hover: #d491a1;
-  --roseus-border: #e5d8db;
+  --roseus-text: #2f1f25;
+  --roseus-text-invert: #f9ecef;
+  --roseus-text-secondary: #6f5a60;
+  --roseus-text-secondary-invert: #c9afaf;
   --roseus-gradient: linear-gradient(
     to top,
-    var(--roseus-bg-secondary),
-    var(--roseus-bg)
+    var(--roseus-secondary),
+    var(--roseus-primary)
   ); /* Darker rose to secondary */
 
   /* Design Tokens */
@@ -119,89 +113,89 @@
   --spacing-md: 1rem;
   --spacing-lg: 2rem;
   --line-width-default: 2px;
-
-  /* Default Theme (Albus) */
-  --color-primary: var(--albus-bg);
-  --color-secondary: var(--albus-bg-secondary);
-  --color-tertiary: var(--albus-tertiary);
-  --color-text-primary: var(--albus-text);
-  --color-text-secondary: var(--albus-text-secondary);
-  --color-text-primary-invert: var(--albus-text-invert);
-  --color-text-secondary-invert: var(--albus-text-secondary-invert);
-  --color-accent: var(--albus-accent);
-  --color-accent-hover: var(--albus-accent-hover);
-  --color-border: var(--albus-border);
-  --color-gradient: var(--albus-gradient); /* Default gradient */
   --font-family-heading: 'Cinzel', serif;
   --font-family-paragraph: 'EB Garamond', serif;
+
+  /* Default Theme (Albus) */
+  --color-primary: var(--albus-primary);
+  --color-secondary: var(--albus-secondary);
+  --color-tertiary: var(--albus-secondary);
+  --color-accent: var(--albus-accent);
+  --color-accent-hover: var(--albus-accent-hover);
+  --color-text-primary: var(--albus-text);
+  --color-text-primary-invert: var(--albus-text-invert);
+  --color-text-secondary: var(--albus-text-secondary);
+  --color-text-secondary-invert: var(--albus-text-secondary-invert);
+  --color-gradient: var(--albus-gradient); /* Default gradient */
+  --color-border: var(--albus-tertiary);
 }
 
 .ruber-mode {
-  --color-primary: var(--ruber-bg);
-  --color-secondary: var(--ruber-bg-secondary);
+  --color-primary: var(--ruber-primary);
+  --color-secondary: var(--ruber-secondary);
   --color-tertiary: var(--ruber-tertiary);
-  --color-text-primary: var(--ruber-text);
-  --color-text-secondary: var(--ruber-text-secondary);
-  --color-text-primary-invert: var(--ruber-text-invert);
-  --color-text-secondary-invert: var(--ruber-text-secondary-invert);
   --color-accent: var(--ruber-accent);
   --color-accent-hover: var(--ruber-accent-hover);
-  --color-border: var(--ruber-border);
+  --color-text-primary: var(--ruber-text);
+  --color-text-primary-invert: var(--ruber-text-invert);
+  --color-text-secondary: var(--ruber-text-secondary);
+  --color-text-secondary-invert: var(--ruber-text-secondary-invert);
+  --color-border: var(--ruber-tertiary);
   --color-gradient: var(--ruber-gradient);
 }
 
 .viridis-mode {
-  --color-primary: var(--viridis-bg);
-  --color-secondary: var(--viridis-bg-secondary);
+  --color-primary: var(--viridis-primary);
+  --color-secondary: var(--viridis-secondary);
   --color-tertiary: var(--viridis-tertiary);
-  --color-text-primary: var(--viridis-text);
-  --color-text-secondary: var(--viridis-text-secondary);
-  --color-text-primary-invert: var(--viridis-text-invert);
-  --color-text-secondary-invert: var(--viridis-text-secondary-invert);
   --color-accent: var(--viridis-accent);
   --color-accent-hover: var(--viridis-accent-hover);
-  --color-border: var(--viridis-border);
+  --color-text-primary: var(--viridis-text);
+  --color-text-primary-invert: var(--viridis-text-invert);
+  --color-text-secondary: var(--viridis-text-secondary);
+  --color-text-secondary-invert: var(--viridis-text-secondary-invert);
+  --color-border: var(--viridis-tertiary);
   --color-gradient: var(--viridis-gradient);
 }
 
 .violaceus-mode {
-  --color-primary: var(--violaceus-bg);
-  --color-secondary: var(--violaceus-bg-secondary);
+  --color-primary: var(--violaceus-primary);
+  --color-secondary: var(--violaceus-secondary);
   --color-tertiary: var(--violaceus-tertiary);
+  --color-accent: var(--violaceus-accent);
+  --color-accent-hover: var(--violaceus-accent-hover);
   --color-text-primary: var(--violaceus-text);
   --color-text-secondary: var(--violaceus-text-secondary);
   --color-text-primary-invert: var(--violaceus-text-invert);
   --color-text-secondary-invert: var(--violaceus-text-secondary-invert);
-  --color-accent: var(--violaceus-accent);
-  --color-accent-hover: var(--violaceus-accent-hover);
-  --color-border: var(--violaceus-border);
+  --color-border: var(--violaceus-tertiary);
   --color-gradient: var(--violaceus-gradient);
 }
 
 .tenebrae-mode {
-  --color-primary: var(--tenebrae-bg);
-  --color-secondary: var(--tenebrae-bg-secondary);
+  --color-primary: var(--tenebrae-primary);
+  --color-secondary: var(--tenebrae-secondary);
   --color-tertiary: var(--tenebrae-tertiary);
-  --color-text-primary: var(--tenebrae-text);
-  --color-text-secondary: var(--tenebrae-text-secondary);
-  --color-text-primary-invert: var(--tenebrae-text-invert);
-  --color-text-secondary-invert: var(--tenebrae-text-secondary-invert);
   --color-accent: var(--tenebrae-accent);
   --color-accent-hover: var(--tenebrae-accent-hover);
-  --color-border: var(--tenebrae-border);
+  --color-text-primary: var(--tenebrae-text);
+  --color-text-primary-invert: var(--tenebrae-text-invert);
+  --color-text-secondary: var(--tenebrae-text-secondary);
+  --color-text-secondary-invert: var(--tenebrae-text-secondary-invert);
+  --color-border: var(--tenebrae-tertiary);
   --color-gradient: var(--tenebrae-gradient);
 }
 
 .roseus-mode {
-  --color-primary: var(--roseus-bg);
-  --color-secondary: var(--roseus-bg-secondary);
+  --color-primary: var(--roseus-primary);
+  --color-secondary: var(--roseus-secondary);
   --color-tertiary: var(--roseus-tertiary);
-  --color-text-primary: var(--roseus-text);
-  --color-text-secondary: var(--roseus-text-secondary);
-  --color-text-primary-invert: var(--roseus-text-invert);
-  --color-text-secondary-invert: var(--roseus-text-secondary-invert);
   --color-accent: var(--roseus-accent);
   --color-accent-hover: var(--roseus-accent-hover);
-  --color-border: var(--roseus-border);
+  --color-text-primary: var(--roseus-text);
+  --color-text-primary-invert: var(--roseus-text-invert);
+  --color-text-secondary: var(--roseus-text-secondary);
+  --color-text-secondary-invert: var(--roseus-text-secondary-invert);
+  --color-border: var(--roseus-tertiary);
   --color-gradient: var(--roseus-gradient);
 }
