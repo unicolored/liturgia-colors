@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/liturgia-colors/dist/liturgia.css" />
+<link rel="stylesheet" href="./liturgia.css" />
 
 A vibrant CSS theme infused with the timeless hues of the Roman Church’s liturgical seasons. From the radiant white of Easter joy to the solemn red of martyrs’ blood, Liturgia brings sacred tradition to modern web design, blending elegance and meaning into every shade.
 
