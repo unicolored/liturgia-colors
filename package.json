@@ -1,6 +1,6 @@
 {
   "name": "liturgia-colors",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A css theme inspired by liturgical colors in the Roman Church.",
   "main": "dist/liturgia.css",
   "files": [
