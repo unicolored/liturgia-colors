@@ -2,5 +2,5 @@
 
 set -e
 
-npm run build
-npm run build:tailwind
+yarn build
+yarn build:tailwind
