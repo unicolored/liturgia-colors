@@ -1,6 +1,7 @@
 # Liturgia Colors
 
-[![Publish](https://github.com/unicolored/liturgia-colors/actions/workflows/publish.yml/badge.svg)](https://github.com/unicolored/liturgia-colors/actions/workflows/publish.yml)
+[![NPM Publish](https://github.com/unicolored/liturgia-colors/actions/workflows/publish.yml/badge.svg)](https://github.com/unicolored/liturgia-colors/actions/workflows/publish.yml)
+[![Documentation](https://github.com/unicolored/liturgia-colors/actions/workflows/mkdocs.yml/badge.svg)](https://github.com/unicolored/liturgia-colors/actions/workflows/mkdocs.yml)
 [![npm version](https://badge.fury.io/js/liturgia-colors.svg)](https://www.npmjs.com/liturgia-colors)
 
 A vibrant CSS theme infused with the timeless hues of the Roman Church’s liturgical seasons. From the radiant white of Easter joy to the solemn red of martyrs’ blood, Liturgia brings sacred tradition to modern web design, blending elegance and meaning into every shade.
