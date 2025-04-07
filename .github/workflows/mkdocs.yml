@@ -19,8 +19,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "23"
+      - run: |
+          corepack enable
+          corepack prepare yarn@stable --activate
+      - run: yarn install
 
       # Set up Python (MkDocs requires Python)
       - name: Set up Python
@@ -35,8 +42,9 @@ jobs:
           pip install mkdocs  # Add other plugins like 'mkdocs-material' if needed
 
       # Build the MkDocs site
-      - name: Build MkDocs site
-        run: mkdocs build
+#      - name: Build MkDocs site
+#        run: mkdocs build
+      - run: sh script/cibuild-docs.sh
 
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
