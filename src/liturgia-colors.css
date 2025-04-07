@@ -1,5 +1,7 @@
 :root {
   /* Albus (White) Palette */
+  --albus-light: #e5e5e5;
+  --albus-dark: #1a1a1a;
   --albus-primary: #d4af37;
   --albus-secondary: #b8962e;
   --albus-tertiary: #e5e5e5;
@@ -16,6 +18,8 @@
   ); /* Darker white to secondary */
 
   /* Ruber (Red) Palette */
+  --ruber-light: #f5eded;
+  --ruber-dark: #2a1a1a;
   --ruber-primary: #a31212;
   --ruber-secondary: #8b0000;
   --ruber-tertiary: #5a3a3a;
@@ -32,6 +36,8 @@
   ); /* Darker white to secondary */
 
   /* Viridis (Green) Palette */
+  --viridis-light: #d1d8cc;
+  --viridis-dark: #1f2f1f;
   --viridis-primary: #487351;
   --viridis-secondary: #355e3b;
   --viridis-tertiary: #d1d8cc;
@@ -48,6 +54,8 @@
   ); /* Darker green to secondary */
 
   /* Violaceus (Violet) Palette */
+  --violaceus-light: #ede4f0;
+  --violaceus-dark: #2d1f34;
   --violaceus-primary: #7d4a8f;
   --violaceus-secondary: #6a387d;
   --violaceus-tertiary: #5a465f;
@@ -64,6 +72,8 @@
   ); /* Darker violet to secondary */
 
   /* Tenebrae (Black) Palette */
+  --tenebrae-light: #e8e8e8;
+  --tenebrae-dark: #1a1a1a;
   --tenebrae-primary: #5e5e5e;
   --tenebrae-secondary: #4a4a4a;
   --tenebrae-tertiary: #3d3d3d;
@@ -80,6 +90,8 @@
   ); /* Darker black to secondary */
 
   /* Roseus (Rose) Palette */
+  --roseus-light: #e5d8db;
+  --roseus-dark: #2f1f25;
   --roseus-primary: #d491a1;
   --roseus-secondary: #c87d8f;
   --roseus-tertiary: #e5d8db;
@@ -117,6 +129,8 @@
   --font-family-paragraph: 'EB Garamond', serif;
 
   /* Default Theme (Albus) */
+  --color-light: var(--albus-light);
+  --color-dark: var(--albus-dark);
   --color-primary: var(--albus-primary);
   --color-secondary: var(--albus-secondary);
   --color-tertiary: var(--albus-secondary);
@@ -131,6 +145,8 @@
 }
 
 .ruber-mode {
+  --color-light: var(--ruber-light);
+  --color-dark: var(--ruber-dark);
   --color-primary: var(--ruber-primary);
   --color-secondary: var(--ruber-secondary);
   --color-tertiary: var(--ruber-tertiary);
@@ -145,6 +161,8 @@
 }
 
 .viridis-mode {
+  --color-light: var(--viridis-light);
+  --color-dark: var(--viridis-dark);
   --color-primary: var(--viridis-primary);
   --color-secondary: var(--viridis-secondary);
   --color-tertiary: var(--viridis-tertiary);
@@ -159,6 +177,8 @@
 }
 
 .violaceus-mode {
+  --color-light: var(--violaceus-light);
+  --color-dark: var(--violaceus-dark);
   --color-primary: var(--violaceus-primary);
   --color-secondary: var(--violaceus-secondary);
   --color-tertiary: var(--violaceus-tertiary);
@@ -173,6 +193,8 @@
 }
 
 .tenebrae-mode {
+  --color-light: var(--tenebrae-light);
+  --color-dark: var(--tenebrae-dark);
   --color-primary: var(--tenebrae-primary);
   --color-secondary: var(--tenebrae-secondary);
   --color-tertiary: var(--tenebrae-tertiary);
@@ -187,6 +209,8 @@
 }
 
 .roseus-mode {
+  --color-light: var(--roseus-light);
+  --color-dark: var(--roseus-dark);
   --color-primary: var(--roseus-primary);
   --color-secondary: var(--roseus-secondary);
   --color-tertiary: var(--roseus-tertiary);

@@ -7,6 +7,8 @@ Liturgia Colors has 6 variants that feed the following tokens:
 ```css
 :root {
     /* Default Theme (Albus) */
+    --color-light: var(--albus-light);
+    --color-dark: var(--albus-dark);
     --color-primary: var(--albus-primary);
     --color-secondary: var(--albus-secondary);
     --color-tertiary: var(--albus-secondary);
