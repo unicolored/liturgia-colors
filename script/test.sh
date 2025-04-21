@@ -2,4 +2,6 @@
 
 set -e
 
-npm run check
+yarn check
+
+sh script/cibuild.sh

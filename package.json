@@ -1,6 +1,6 @@
 {
   "name": "liturgia-colors",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "A css theme inspired by liturgical colors in the Roman Church.",
   "main": "dist/liturgia.css",
   "files": [
@@ -9,7 +9,7 @@
   ],
   "scripts": {
     "build": "npx postcss src/liturgia-colors.css -o dist/liturgia.css",
-    "build:tailwind": "npx postcss src/tailwind/main.css -o dist/liturgia.tailwind.css",
+    "build:tailwind": "npx postcss src/tailwind/_main.css -o dist/liturgia.tailwind.css",
     "format": "prettier --write src",
     "check": "prettier --check src",
     "docs": "mkdocs serve",

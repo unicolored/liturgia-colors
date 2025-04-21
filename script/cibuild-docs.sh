@@ -3,8 +3,11 @@
 set -e
 
 
-npx postcss src/liturgia-colors.css -o docs/styles/liturgia.css
-npx postcss src/tailwind/main.css -o docs/styles/liturgia.tailwind.css
+yarn build
+yarn build:tailwind
+
+cp dist/liturgia.css docs/build/liturgia.css
+cp dist/liturgia.tailwind.css docs/build/liturgia.tailwind.css
 
 yarn docs:build
 
