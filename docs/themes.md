@@ -7,17 +7,12 @@ Liturgia Colors has 6 variants that feed the following tokens:
 ```css
 :root {
     /* Default Theme (Albus) */
-    --color-primary: var(--albus-primary);
-    --color-secondary: var(--albus-secondary);
-    --color-tertiary: var(--albus-secondary);
-    --color-accent: var(--albus-accent);
-    --color-accent-hover: var(--albus-accent-hover);
-    --color-text-primary: var(--albus-text);
-    --color-text-primary-invert: var(--albus-text-invert);
-    --color-text-secondary: var(--albus-text-secondary);
-    --color-text-secondary-invert: var(--albus-text-secondary-invert);
-    --color-gradient: var(--albus-gradient); /* Default gradient */
-    --color-border: var(--albus-tertiary);
+    --color-light: var(--albus-light);
+    --color-dark: var(--albus-dark);
+    --color-main: var(--albus-main);
+    --color-text-main: var(--albus-dark);
+    --color-text-main-invert: var(--albus-light);
+    --color-border: var(--albus-main);
 }
 ```
 
@@ -42,8 +37,6 @@ The common tokens are:
     --spacing-md: 1rem;
     --spacing-lg: 2rem;
     --line-width-default: 2px;
-    --font-family-heading: 'Cinzel', serif;
-    --font-family-paragraph: 'EB Garamond', serif;
 }
 ```
 
