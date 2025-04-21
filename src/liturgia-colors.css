@@ -2,37 +2,37 @@
   /* Albus (White) Palette */
   --albus-light: #fef8e9;
   --albus-dark: #1e1805;
-  --albus-primary: #d2b152;
+  --albus-main: #d2b152;
   --albus-gray: #8e8877;
 
   /* Ruber (Red) Palette */
   --ruber-light: #fdf7f6;
   --ruber-dark: #211513;
-  --ruber-primary: #a20901;
+  --ruber-main: #a20901;
   --ruber-gray: #8f8685;
 
   /* Viridis (Green) Palette */
   --viridis-light: #d1d8cc; /* TODO */
   --viridis-dark: #1f2f1f; /* TODO */
-  --viridis-primary: #487351; /* TODO */
+  --viridis-main: #487351; /* TODO */
   --viridis-gray: #888; /* TODO */
 
   /* Violaceus (Violet) Palette */
   --violaceus-light: #ede4f0; /* TODO */
   --violaceus-dark: #2d1f34; /* TODO */
-  --violaceus-primary: #7d4a8f; /* TODO */
+  --violaceus-main: #7d4a8f; /* TODO */
   --violaceus-gray: #888; /* TODO */
 
   /* Tenebrae (Black) Palette */
   --tenebrae-light: #e8e8e8; /* TODO */
   --tenebrae-dark: #1a1a1a; /* TODO */
-  --tenebrae-primary: #5e5e5e; /* TODO */
+  --tenebrae-main: #5e5e5e; /* TODO */
   --tenebrae-gray: #888; /* TODO */
 
   /* Roseus (Rose) Palette */
   --roseus-light: #e5d8db; /* TODO */
   --roseus-dark: #2f1f25; /* TODO */
-  --roseus-primary: #d491a1; /* TODO */
+  --roseus-main: #d491a1; /* TODO */
   --roseus-gray: #888; /* TODO */
 
   /* Design Tokens */
@@ -57,53 +57,53 @@
   /* Default Theme (Albus) */
   --color-light: var(--albus-light);
   --color-dark: var(--albus-dark);
-  --color-primary: var(--albus-primary);
-  --color-text-primary: var(--albus-dark);
-  --color-text-primary-invert: var(--albus-light);
-  --color-border: var(--albus-primary);
+  --color-main: var(--albus-main);
+  --color-text: var(--albus-dark);
+  --color-text-invert: var(--albus-light);
+  --color-border: var(--albus-main);
 }
 
 .ruber-mode {
   --color-light: var(--ruber-light);
   --color-dark: var(--ruber-dark);
-  --color-primary: var(--ruber-primary);
-  --color-text-primary: var(--ruber-dark);
-  --color-text-primary-invert: var(--ruber-light);
-  --color-border: var(--ruber-primary);
+  --color-main: var(--ruber-main);
+  --color-text: var(--ruber-dark);
+  --color-text-invert: var(--ruber-light);
+  --color-border: var(--ruber-main);
 }
 
 .viridis-mode {
   --color-light: var(--viridis-light);
   --color-dark: var(--viridis-dark);
-  --color-primary: var(--viridis-primary);
-  --color-text-primary: var(--viridis-dark);
-  --color-text-primary-invert: var(--viridis-light);
-  --color-border: var(--viridis-primary);
+  --color-main: var(--viridis-main);
+  --color-text: var(--viridis-dark);
+  --color-text-invert: var(--viridis-light);
+  --color-border: var(--viridis-main);
 }
 
 .violaceus-mode {
   --color-light: var(--violaceus-light);
   --color-dark: var(--violaceus-dark);
-  --color-primary: var(--violaceus-primary);
-  --color-text-primary: var(--violaceus-dark);
-  --color-text-primary-invert: var(--violaceus-light);
-  --color-border: var(--violaceus-primary);
+  --color-main: var(--violaceus-main);
+  --color-text: var(--violaceus-dark);
+  --color-text-invert: var(--violaceus-light);
+  --color-border: var(--violaceus-main);
 }
 
 .tenebrae-mode {
   --color-light: var(--tenebrae-light);
   --color-dark: var(--tenebrae-dark);
-  --color-primary: var(--tenebrae-primary);
-  --color-text-primary: var(--tenebrae-dark);
-  --color-text-primary-invert: var(--tenebrae-light);
-  --color-border: var(--tenebrae-primary);
+  --color-main: var(--tenebrae-main);
+  --color-text: var(--tenebrae-dark);
+  --color-text-invert: var(--tenebrae-light);
+  --color-border: var(--tenebrae-main);
 }
 
 .roseus-mode {
   --color-light: var(--roseus-light);
   --color-dark: var(--roseus-dark);
-  --color-primary: var(--roseus-primary);
-  --color-text-primary: var(--roseus-dark);
-  --color-text-primary-invert: var(--roseus-light);
-  --color-border: var(--roseus-primary);
+  --color-main: var(--roseus-main);
+  --color-text: var(--roseus-dark);
+  --color-text-invert: var(--roseus-light);
+  --color-border: var(--roseus-main);
 }
