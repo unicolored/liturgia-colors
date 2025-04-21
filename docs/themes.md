@@ -48,10 +48,15 @@ The common tokens are:
       <p>Normal: Purity and joy</p>
       <button><i class="fa-solid fa-dove"></i> Peace Be With You</button>
     </div>
-    <div class="demo-box invert">
+    <div class="demo-box dark">
       <h1>Albus (White)</h1>
       <p>Invert: Purity and joy</p>
       <button><i class="fa-solid fa-dove"></i> Peace Be With You</button>
+    </div>
+    <div class="demo-box prose prose-lg bg-light">
+      <h1>Albus (White)</h1>
+      <p>Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipiscing elit. Duis sit amet enim felis. Fusce nisl dolor, interdum in fringilla quis, ornare nec ex. Nunc vel cursus leo. Sed sed mi metus. Nam porttitor tempus efficitur. Etiam rutrum, eros tempus dapibus hendrerit, quam nulla placerat erat, at ultricies sapien neque a metus. Phasellus semper nisl id gravida ultricies. Morbi facilisis facilisis turpis. Praesent in rhoncus enim.</p>
+        <hr>
     </div>
   </div>
 </section>

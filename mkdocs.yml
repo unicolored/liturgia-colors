@@ -15,4 +15,4 @@ nav:
 extra_css:
   - styles/liturgia.css
   - styles/liturgia.tailwind.css
-  - styles/themes.css
+  - styles/_themes.css
