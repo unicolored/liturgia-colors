@@ -17,6 +17,7 @@ Liturgia Colors has 6 variants that feed the following tokens:
 ```
 
 The common tokens are:
+
 ```css
 :root {
     /* Design Tokens */
@@ -40,103 +41,27 @@ The common tokens are:
 }
 ```
 
-## Albus (White)
-<section class="liturgia-mode albus-mode">
+{% for item in config.extra.color_data %}
+<section class="liturgia-mode {{ item.css_class }}">
   <div class="demo-container">
-    <div class="demo-box">
-      <h1>Albus (White)</h1>
-      <p>Normal: Purity and joy</p>
-      <button><i class="fa-solid fa-dove"></i> Peace Be With You</button>
-    </div>
-    <div class="demo-box dark">
-      <h1>Albus (White)</h1>
-      <p>Invert: Purity and joy</p>
-      <button><i class="fa-solid fa-dove"></i> Peace Be With You</button>
-    </div>
-    <div class="demo-box prose prose-lg bg-light">
-      <h1>Albus (White)</h1>
-      <p>Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipiscing elit. Duis sit amet enim felis. Fusce nisl dolor, interdum in fringilla quis, ornare nec ex. Nunc vel cursus leo. Sed sed mi metus. Nam porttitor tempus efficitur. Etiam rutrum, eros tempus dapibus hendrerit, quam nulla placerat erat, at ultricies sapien neque a metus. Phasellus semper nisl id gravida ultricies. Morbi facilisis facilisis turpis. Praesent in rhoncus enim.</p>
+    <div class="prose prose-lg bg-light">
+        <h1>{{ item.title }}</h1>
+        <h2>{{ item.description }}</h2>
+        <p>Lorem ipsum <a href="#">dolor sit amet</a>, consectetur adipiscing elit. Duis sit amet enim felis. Fusce nisl dolor, interdum in fringilla quis, ornare nec ex. Nunc vel cursus leo. Sed sed mi metus. Nam porttitor tempus efficitur. Etiam rutrum, eros tempus dapibus hendrerit, quam nulla placerat erat, at ultricies sapien neque a metus.</p>
+        <blockquote>
+            <p>Phasellus semper nisl id gravida ultricies. Morbi facilisis facilisis turpis. Praesent in rhoncus enim.</p>
+        </blockquote>
         <hr>
+        <button class="dark"><i class="fa-solid {{ item.icon }}"></i></button>
+        <button class="dark">{{ item.label }}</button>
+    </div>
+    <div class="card">
+        <h1><i class="fa-solid {{ item.icon }}"></i> {{ item.label }}</h1>
+        <p><strong>{{ item.description }}.</strong> Curabitur in aliquet arcu. <a href="#">Etiam id velit magna</a>. Duis at eros lectus. Duis vel venenatis arcu. Ut egestas orci ac est tincidunt, a bibendum magna tempor. Vestibulum purus justo, imperdiet ut tellus non, rutrum luctus nibh. Aenean finibus sem ac varius accumsan. Phasellus velit quam, egestas eget commodo id, porta nec leo. Vivamus scelerisque nec magna id consequat. In hac habitasse platea dictumst. </p>
+        <hr>
+        <button><i class="fa-solid {{ item.icon }}"></i></button>
+        <button>{{ item.label }}</button>
     </div>
   </div>
 </section>
-
-## Ruber (Red)
-<section class="liturgia-mode ruber-mode">
-  <div class="demo-container">
-    <div class="demo-box">
-      <h1>Ruber (Red)</h1>
-      <p>Normal: Blood of martyrs</p>
-      <button><i class="fa-solid fa-heart"></i> Thank God!</button>
-    </div>
-    <div class="demo-box invert">
-      <h1>Ruber (Red)</h1>
-      <p>Invert: Blood of martyrs</p>
-      <button><i class="fa-solid fa-heart"></i> Thank God!</button>
-    </div>
-  </div>
-</section>
-
-## Viridis (Green)
-<section class="liturgia-mode viridis-mode" style="background: var(--color-gradient);">
-  <div class="demo-container">
-    <div class="demo-box">
-      <h1>Viridis (Green)</h1>
-      <p>Normal: Hope and growth</p>
-      <button><i class="fa-solid fa-leaf"></i> Grow in Faith</button>
-    </div>
-    <div class="demo-box invert">
-      <h1>Viridis (Green)</h1>
-      <p>Invert: Hope and growth</p>
-      <button><i class="fa-solid fa-leaf"></i> Grow in Faith</button>
-    </div>
-  </div>
-</section>
-
-## Violaceus (Violet)
-<section class="liturgia-mode violaceus-mode" style="background: var(--color-gradient);">
-  <div class="demo-container">
-    <div class="demo-box">
-      <h1>Violaceus (Violet)</h1>
-      <p>Normal: Penance and preparation</p>
-      <button><i class="fa-solid fa-pray"></i> Pray for Grace</button>
-    </div>
-    <div class="demo-box invert">
-      <h1>Violaceus (Violet)</h1>
-      <p>Invert: Penance and preparation</p>
-      <button><i class="fa-solid fa-pray"></i> Pray for Grace</button>
-    </div>
-  </div>
-</section>
-
-## Tenebrae (Black)
-<section class="liturgia-mode tenebrae-mode" style="background: var(--color-gradient);">
-  <div class="demo-container">
-    <div class="demo-box">
-      <h1>Tenebrae (Black)</h1>
-      <p>Normal: Mourning and remembrance</p>
-      <button><i class="fa-solid fa-cross"></i> Rest in Peace</button>
-    </div>
-    <div class="demo-box invert">
-      <h1>Tenebrae (Black)</h1>
-      <p>Invert: Mourning and remembrance</p>
-      <button><i class="fa-solid fa-cross"></i> Rest in Peace</button>
-    </div>
-  </div>
-</section>
-
-## Roseus (Rose)
-<section class="liturgia-mode roseus-mode" style="background: var(--color-gradient);">
-  <div class="demo-container">
-    <div class="demo-box">
-      <h1>Roseus (Rose)</h1>
-      <p>Normal: Gentle joy</p>
-      <button><i class="fa-solid fa-fan"></i> Rejoice Always</button>
-    </div>
-    <div class="demo-box invert">
-      <h1>Roseus (Rose)</h1>
-      <p>Invert: Gentle joy</p>
-      <button><i class="fa-solid fa-fan"></i> Rejoice Always</button>
-    </div>
-  </div>
-</section>
+{% endfor %}

@@ -13,6 +13,40 @@ nav:
   - Usage: usage.md
   - Themes: themes.md
 extra_css:
-  - styles/liturgia.css
-  - styles/liturgia.tailwind.css
+  - build/liturgia.css
+#  - build/liturgia.tailwind.css
   - styles/_themes.css
+plugins:
+  - macros
+extra:
+  color_data:
+    - css_class: albus-mode
+      icon: fa-dove
+      description: Purity and joy
+      label: Peace Be With You
+      title: Albus (White)
+    - css_class: roseus-mode
+      icon: fa-fan
+      description: Gentle joy
+      label: Rejoice Always
+      title: Roseus (Rose)
+    - css_class: ruber-mode
+      icon: fa-heart
+      description: Blood of martyrs
+      label: Thank God!
+      title: Ruber (Red)
+    - css_class: tenebrae-mode
+      icon: fa-cross
+      description: Mourning and remembrance
+      label: Rest in Peace
+      title: Tenebrae (Black)
+    - css_class: violaceus-mode
+      icon: fa-pray
+      description: Penance and preparation
+      label: Pray for Grace
+      title: Violaceus (Violet)
+    - css_class: viridis-mode
+      icon: fa-leaf
+      description: Hope and growth
+      label: Grow in Faith
+      title: Viridis (Green)
