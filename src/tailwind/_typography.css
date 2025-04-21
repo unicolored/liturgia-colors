@@ -5,7 +5,7 @@
   --tw-prose-headings: var(--color-text-primary);
   --tw-prose-lead: var(--color-text-secondary);
   --tw-prose-links: var(--color-accent);
-  --tw-prose-links-hover: var(--color-accent-hover);
+  --tw-prose-links-hover: var(--color-accent-darker);
   --tw-prose-bold: var(--color-text-primary);
   --tw-prose-counters: var(--color-text-secondary);
   --tw-prose-bullets: var(--color-border);
