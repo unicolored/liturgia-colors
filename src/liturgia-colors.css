@@ -5,23 +5,17 @@
   --albus-main: #d2b152;
   --albus-gray: #8e8877;
 
+  /* Roseus (Rose) Palette */
+  --roseus-light: #e5d8db; /* TODO */
+  --roseus-dark: #2f1f25; /* TODO */
+  --roseus-main: #d491a1; /* TODO */
+  --roseus-gray: #888; /* TODO */
+
   /* Ruber (Red) Palette */
   --ruber-light: #fdf7f6;
   --ruber-dark: #211513;
   --ruber-main: #a20901;
   --ruber-gray: #8f8685;
-
-  /* Viridis (Green) Palette */
-  --viridis-light: #d1d8cc; /* TODO */
-  --viridis-dark: #1f2f1f; /* TODO */
-  --viridis-main: #487351; /* TODO */
-  --viridis-gray: #888; /* TODO */
-
-  /* Violaceus (Violet) Palette */
-  --violaceus-light: #ede4f0; /* TODO */
-  --violaceus-dark: #2d1f34; /* TODO */
-  --violaceus-main: #7d4a8f; /* TODO */
-  --violaceus-gray: #888; /* TODO */
 
   /* Tenebrae (Black) Palette */
   --tenebrae-light: #e8e8e8; /* TODO */
@@ -29,11 +23,17 @@
   --tenebrae-main: #5e5e5e; /* TODO */
   --tenebrae-gray: #888; /* TODO */
 
-  /* Roseus (Rose) Palette */
-  --roseus-light: #e5d8db; /* TODO */
-  --roseus-dark: #2f1f25; /* TODO */
-  --roseus-main: #d491a1; /* TODO */
-  --roseus-gray: #888; /* TODO */
+  /* Violaceus (Violet) Palette */
+  --violaceus-light: #ede4f0; /* TODO */
+  --violaceus-dark: #2d1f34; /* TODO */
+  --violaceus-main: #7d4a8f; /* TODO */
+  --violaceus-gray: #888; /* TODO */
+
+  /* Viridis (Green) Palette */
+  --viridis-light: #d1d8cc; /* TODO */
+  --viridis-dark: #1f2f1f; /* TODO */
+  --viridis-main: #487351; /* TODO */
+  --viridis-gray: #888; /* TODO */
 
   /* Design Tokens */
   --radius-default: 4px;
@@ -56,54 +56,54 @@
 
   /* Default Theme (Albus) */
   --color-light: var(--albus-light);
+  --color-gray: var(--albus-gray);
   --color-dark: var(--albus-dark);
   --color-main: var(--albus-main);
   --color-text: var(--albus-dark);
   --color-text-invert: var(--albus-light);
-  --color-border: var(--albus-main);
-}
-
-.ruber-mode {
-  --color-light: var(--ruber-light);
-  --color-dark: var(--ruber-dark);
-  --color-main: var(--ruber-main);
-  --color-text: var(--ruber-dark);
-  --color-text-invert: var(--ruber-light);
-  --color-border: var(--ruber-main);
-}
-
-.viridis-mode {
-  --color-light: var(--viridis-light);
-  --color-dark: var(--viridis-dark);
-  --color-main: var(--viridis-main);
-  --color-text: var(--viridis-dark);
-  --color-text-invert: var(--viridis-light);
-  --color-border: var(--viridis-main);
-}
-
-.violaceus-mode {
-  --color-light: var(--violaceus-light);
-  --color-dark: var(--violaceus-dark);
-  --color-main: var(--violaceus-main);
-  --color-text: var(--violaceus-dark);
-  --color-text-invert: var(--violaceus-light);
-  --color-border: var(--violaceus-main);
-}
-
-.tenebrae-mode {
-  --color-light: var(--tenebrae-light);
-  --color-dark: var(--tenebrae-dark);
-  --color-main: var(--tenebrae-main);
-  --color-text: var(--tenebrae-dark);
-  --color-text-invert: var(--tenebrae-light);
-  --color-border: var(--tenebrae-main);
 }
 
 .roseus-mode {
   --color-light: var(--roseus-light);
+  --color-gray: var(--roseus-gray);
   --color-dark: var(--roseus-dark);
   --color-main: var(--roseus-main);
   --color-text: var(--roseus-dark);
   --color-text-invert: var(--roseus-light);
-  --color-border: var(--roseus-main);
+}
+
+.ruber-mode {
+  --color-light: var(--ruber-light);
+  --color-gray: var(--ruber-gray);
+  --color-dark: var(--ruber-dark);
+  --color-main: var(--ruber-main);
+  --color-text: var(--ruber-dark);
+  --color-text-invert: var(--ruber-light);
+}
+
+.tenebrae-mode {
+  --color-light: var(--tenebrae-light);
+  --color-gray: var(--tenebrae-gray);
+  --color-dark: var(--tenebrae-dark);
+  --color-main: var(--tenebrae-main);
+  --color-text: var(--tenebrae-dark);
+  --color-text-invert: var(--tenebrae-light);
+}
+
+.violaceus-mode {
+  --color-light: var(--violaceus-light);
+  --color-gray: var(--violaceus-gray);
+  --color-dark: var(--violaceus-dark);
+  --color-main: var(--violaceus-main);
+  --color-text: var(--violaceus-dark);
+  --color-text-invert: var(--violaceus-light);
+}
+
+.viridis-mode {
+  --color-light: var(--viridis-light);
+  --color-gray: var(--viridis-gray);
+  --color-dark: var(--viridis-dark);
+  --color-main: var(--viridis-main);
+  --color-text: var(--viridis-dark);
+  --color-text-invert: var(--viridis-light);
 }

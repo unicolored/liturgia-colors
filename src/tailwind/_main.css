@@ -1,17 +1,15 @@
 @import 'tailwindcss';
 @import '../liturgia-colors.css';
-@import './typography.css';
+@import './_typography.css';
 
 @theme inline {
   /* Colors */
-  --color-primary: var(--color-primary);
-  --color-secondary: var(--color-secondary);
-  --color-tertiary: var(--color-tertiary);
-  --color-text-primary: var(--color-text-primary);
-  --color-text-secondary: var(--color-text-secondary);
-  --color-accent: var(--color-accent);
-  --color-accent-darker: var(--color-accent-darker);
-  --color-border: var(--color-border);
+  --color-light: var(--color-light);
+  --color-gray: var(--color-gray);
+  --color-dark: var(--color-dark);
+  --color-main: var(--color-main);
+  --color-text: var(--color-text);
+  --color-text-invert: var(--color-text-invert);
 
   /* Fonts */
   --font-family-heading: var(--font-family-heading);

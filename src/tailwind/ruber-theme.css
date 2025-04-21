@@ -1,20 +1,21 @@
 @theme {
   /** Override grayscale **/
-  --color-gray-50: #f2ebea;
-  --color-gray-100: #e6e0df;
-  --color-gray-200: #d1cac9;
-  --color-gray-300: #bbb2b2;
-  --color-gray-400: #a59c9c;
-  --color-gray-500: #8f8685;
-  --color-gray-600: #79706d;
-  --color-gray-700: #4d4240;
-  --color-gray-800: #4d4240;
-  --color-gray-900: #372b29;
-  --color-gray-950: #2c211f;
+  --color-ruber-gray-50: #f2ebea;
+  --color-ruber-gray-100: #e6e0df;
+  --color-ruber-gray-200: #d1cac9;
+  --color-ruber-gray-300: #bbb2b2;
+  --color-ruber-gray-400: #a59c9c;
+  --color-ruber-gray-500: #8f8685;
+  --color-ruber-gray-600: #79706d;
+  --color-ruber-gray-700: #4d4240;
+  --color-ruber-gray-800: #4d4240;
+  --color-ruber-gray-900: #372b29;
+  --color-ruber-gray-950: #2c211f;
 
   /** Custom **/
-  --color-dark: #211513;
-  --color-light: #fdf7f6;
+  --color-ruber-dark: #211513;
+  --color-ruber-gray: #8f8685;
+  --color-ruber-light: #fdf7f6;
 
   --color-ruber-50: #fcf4f3;
   --color-ruber-100: #eac8c5;

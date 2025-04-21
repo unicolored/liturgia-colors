@@ -1,21 +1,22 @@
 @theme {
   /** TODO : replace tenebrae colors and grays
     /** Override grayscale **/
-  --color-gray-50: oklch(98.4% 0.003 247.858);
-  --color-gray-100: oklch(96.8% 0.007 247.896);
-  --color-gray-200: oklch(92.9% 0.013 255.508);
-  --color-gray-300: oklch(86.9% 0.022 252.894);
-  --color-gray-400: oklch(70.4% 0.04 256.788);
-  --color-gray-500: oklch(55.4% 0.046 257.417);
-  --color-gray-600: oklch(44.6% 0.043 257.281);
-  --color-gray-700: oklch(37.2% 0.044 257.287);
-  --color-gray-800: oklch(27.9% 0.041 260.031);
-  --color-gray-900: oklch(20.8% 0.042 265.755);
-  --color-gray-950: oklch(12.9% 0.042 264.695);
+  --color-tenebrae-gray-50: oklch(98.4% 0.003 247.858);
+  --color-tenebrae-gray-100: oklch(96.8% 0.007 247.896);
+  --color-tenebrae-gray-200: oklch(92.9% 0.013 255.508);
+  --color-tenebrae-gray-300: oklch(86.9% 0.022 252.894);
+  --color-tenebrae-gray-400: oklch(70.4% 0.04 256.788);
+  --color-tenebrae-gray-500: oklch(55.4% 0.046 257.417);
+  --color-tenebrae-gray-600: oklch(44.6% 0.043 257.281);
+  --color-tenebrae-gray-700: oklch(37.2% 0.044 257.287);
+  --color-tenebrae-gray-800: oklch(27.9% 0.041 260.031);
+  --color-tenebrae-gray-900: oklch(20.8% 0.042 265.755);
+  --color-tenebrae-gray-950: oklch(12.9% 0.042 264.695);
 
   /** Custom **/
-  --color-dark: #0c110a;
-  --color-light: #f9fdf6;
+  --color-tenebrae-dark: #0c110a;
+  --color-tenebrae-gray: oklch(55.4% 0.046 257.417);
+  --color-tenebrae-light: #f9fdf6;
 
   --color-tenebrae-50: oklch(98.5% 0 0);
   --color-tenebrae-100: oklch(97% 0 0);
