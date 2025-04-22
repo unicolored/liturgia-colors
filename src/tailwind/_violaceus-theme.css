@@ -1,4 +1,4 @@
-@theme {
+@theme static {
   /** TODO : replace violaceus colors and grays
     /** Override grayscale **/
   --color-violaceus-gray-50: oklch(98.5% 0 0);
