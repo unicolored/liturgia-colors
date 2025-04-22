@@ -1,4 +1,4 @@
-@theme {
+@theme static {
   /** TODO : replace tenebrae colors and grays
     /** Override grayscale **/
   --color-tenebrae-gray-50: oklch(98.4% 0.003 247.858);

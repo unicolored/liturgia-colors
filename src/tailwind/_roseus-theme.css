@@ -1,4 +1,4 @@
-@theme {
+@theme static {
   /** TODO : replace roseus colors and grays
     /** Override grayscale **/
   --color-roseus-gray-50: oklch(98.5% 0 0);

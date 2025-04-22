@@ -1,4 +1,4 @@
-@theme {
+@theme static {
   /** TODO : replace viridis colors and grays
     /** Override grayscale **/
   --color-viridis-gray-50: oklch(98.5% 0 0);
